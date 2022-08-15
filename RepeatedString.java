@@ -15,7 +15,7 @@ public class RepeatedString{
 		
 		if(chArray.length>0){								//if String is non-empty, continue else switch flag to false 
 		char prev = chArray[0];
-		for(int i = 1; i<chArray.length;i++){ 
+		for(int i = 1; i<chArray.length && !flag;i++){ 
 			if(i == chArray.length-1){ 						//for last element, switch counter2 to 0 #This is a special condition mainly used for Strings with odd number of Character
 				lastFlag=true;
 }
