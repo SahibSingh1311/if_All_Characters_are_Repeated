@@ -2,7 +2,7 @@ import java.util.*;
 
 public class RepeatedString{
 	public static void main(String[] arg){
-		String str1 = "abcca";
+		String str1 = "abbcca";
 		System.out.println(isRepeated(str1));
 }
 
